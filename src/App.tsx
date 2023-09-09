@@ -13,10 +13,12 @@ function App(): JSX.Element {
             <Button onClick={() => console.log("Hello World!")}>
                 Log Hello World
             </Button>
-            <img
-                src="https://stillmed.olympics.com/media/Images/OlympicOrg/News/2017/04/11/2017-04-11-Volleyball-thumbnail.jpg"
-                alt="Volleyball Attack Picture"
-            />
+            <div className="text-center">
+                <img
+                    src="https://stillmed.olympics.com/media/Images/OlympicOrg/News/2017/04/11/2017-04-11-Volleyball-thumbnail.jpg"
+                    alt="Volleyball Attack Picture"
+                />
+            </div>
             <div>
                 Ordered List:
                 <ol>
