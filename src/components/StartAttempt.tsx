@@ -13,9 +13,7 @@ export function StartAttempt(): JSX.Element {
         setIsInProgress(!isInProgress);
     }
     function increaseAttempts(): void {
-        if (numAttempts < 9) {
-            setNumAttempts(numAttempts + 1);
-        }
+        setNumAttempts(numAttempts + 1);
     }
     return (
         <div>
