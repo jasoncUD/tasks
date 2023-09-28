@@ -1,65 +1,34 @@
 import React from "react";
 import "./App.css";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Counter } from "./components/Counter";
+import { RevealAnswer } from "./components/RevealAnswer";
+import { ChangeType } from "./components/ChangeType";
+import { StartAttempt } from "./components/StartAttempt";
+import { TwoDice } from "./components/TwoDice";
+import { CycleHoliday } from "./components/CycleHoliday";
 
 function App(): JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
-                UD CISC275 with React Hooks and TypeScript
+                UD CISC275 with React Hooks and TypeScript Ayye
             </header>
-            <h1>My name is Jason Chan</h1>
-
-            <Button onClick={() => console.log("Hello World!")}>
-                Log Hello World
-            </Button>
-            <div className="text-center">
-                <img
-                    src="https://stillmed.olympics.com/media/Images/OlympicOrg/News/2017/04/11/2017-04-11-Volleyball-thumbnail.jpg"
-                    alt="Volleyball Attack Picture"
-                />
-            </div>
-            <div>
-                Ordered List:
-                <ol>
-                    <li>First thing</li>
-                    <li>Another thing</li>
-                    <li>A third item</li>
-                </ol>
-            </div>
-            <Container>
-                <Row>
-                    <Col>
-                        <div
-                            style={{
-                                border: "4px solid red",
-                                width: 80,
-                                height: 100,
-                                backgroundColor: "orange",
-                                padding: "4px"
-                            }}
-                        >
-                            First column
-                        </div>
-                    </Col>
-                    <Col>
-                        <div
-                            style={{
-                                border: "4px solid red",
-                                width: 80,
-                                height: 100,
-                                backgroundColor: "yellow",
-                                padding: "4px"
-                            }}
-                        >
-                            Second column
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
             <p>
-                Edit <code>src/App.tsx</code> and save. This page will
-                automatically reload.
+                Counter Component: <Counter></Counter>
+                <p></p>
+                Reveal Answer Component: <RevealAnswer></RevealAnswer>
+            </p>
+            <p>
+                Change Question Type Component: <ChangeType></ChangeType>
+            </p>
+            <p>
+                Start Attempt Component: <StartAttempt></StartAttempt>
+            </p>
+            <p>
+                TwoDice Component: <TwoDice></TwoDice>
+            </p>
+            <p>
+                CycleHoliday Component: <CycleHoliday></CycleHoliday>
             </p>
         </div>
     );
