@@ -54,19 +54,19 @@ PASS src/App.test.tsx
 -------------------|---------|----------|---------|---------|-------------------
 File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -------------------|---------|----------|---------|---------|-------------------
-All files          |   99.03 |    95.65 |     100 |      99 |                   
+All files          |   99.03 |    96.66 |     100 |   98.99 |                   
  src               |   99.39 |    96.96 |     100 |   99.36 |                   
   App.tsx          |     100 |      100 |     100 |     100 |                   
   arrays.ts        |     100 |      100 |     100 |     100 |                   
   functions.ts     |     100 |      100 |     100 |     100 |                   
   nested.ts        |     100 |    95.65 |     100 |     100 | 248               
   objects.ts       |   95.83 |     87.5 |     100 |   95.83 | 52                
- src/components    |   97.67 |     92.3 |     100 |   97.67 |                   
+ src/components    |   97.61 |    95.83 |     100 |   97.61 |                   
   ChangeType.tsx   |     100 |      100 |     100 |     100 |                   
   Counter.tsx      |     100 |      100 |     100 |     100 |                   
   CycleHoliday.tsx |   94.44 |    83.33 |     100 |   94.44 | 35                
   RevealAnswer.tsx |     100 |      100 |     100 |     100 |                   
-  StartAttempt.tsx |     100 |       75 |     100 |     100 | 16                
+  StartAttempt.tsx |     100 |      100 |     100 |     100 |                   
   TwoDice.tsx      |     100 |      100 |     100 |     100 |                   
  src/interfaces    |       0 |        0 |       0 |       0 |                   
   answer.ts        |       0 |        0 |       0 |       0 |                   
@@ -76,5 +76,5 @@ All files          |   99.03 |    95.65 |     100 |      99 |
 Test Suites: 11 passed, 11 total
 Tests:       93 passed, 93 total
 Snapshots:   0 total
-Time:        8.879 s
+Time:        7.695 s
 Ran all test suites.
