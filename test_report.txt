@@ -10,71 +10,45 @@ PASS src/arrays.test.ts
 PASS src/objects.test.ts
 PASS src/components/StartAttempt.test.tsx
 PASS src/components/TwoDice.test.tsx
+PASS src/bad-components/ChooseTeam.test.tsx
+PASS src/bad-components/DoubleHalf.test.tsx
 PASS src/functions.test.ts
 PASS src/components/ChangeType.test.tsx
 PASS src/components/CycleHoliday.test.tsx
 PASS src/components/Counter.test.tsx
 PASS src/components/RevealAnswer.test.tsx
+PASS src/bad-components/ColoredBox.test.tsx
+PASS src/bad-components/ShoveBox.test.tsx
 PASS src/App.test.tsx
-  ● Console
+--------------------|---------|----------|---------|---------|-------------------
+File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+--------------------|---------|----------|---------|---------|-------------------
+All files           |   99.15 |    95.65 |     100 |   99.11 |                   
+ src                |   99.39 |    96.96 |     100 |   99.36 |                   
+  App.tsx           |     100 |      100 |     100 |     100 |                   
+  arrays.ts         |     100 |      100 |     100 |     100 |                   
+  functions.ts      |     100 |      100 |     100 |     100 |                   
+  nested.ts         |     100 |    95.65 |     100 |     100 | 248               
+  objects.ts        |   95.83 |     87.5 |     100 |   95.83 | 52                
+ src/bad-components |     100 |       50 |     100 |     100 |                   
+  ChooseTeam.tsx    |     100 |       50 |     100 |     100 | 18                
+  ColoredBox.tsx    |     100 |      100 |     100 |     100 |                   
+  DoubleHalf.tsx    |     100 |      100 |     100 |     100 |                   
+  ShoveBox.tsx      |     100 |      100 |     100 |     100 |                   
+ src/components     |   97.61 |    95.83 |     100 |   97.61 |                   
+  ChangeType.tsx    |     100 |      100 |     100 |     100 |                   
+  Counter.tsx       |     100 |      100 |     100 |     100 |                   
+  CycleHoliday.tsx  |   94.44 |    83.33 |     100 |   94.44 | 35                
+  RevealAnswer.tsx  |     100 |      100 |     100 |     100 |                   
+  StartAttempt.tsx  |     100 |      100 |     100 |     100 |                   
+  TwoDice.tsx       |     100 |      100 |     100 |     100 |                   
+ src/interfaces     |       0 |        0 |       0 |       0 |                   
+  answer.ts         |       0 |        0 |       0 |       0 |                   
+  question.ts       |       0 |        0 |       0 |       0 |                   
+--------------------|---------|----------|---------|---------|-------------------
 
-    console.error
-      Warning: validateDOMNesting(...): <p> cannot appear as a descendant of <p>.
-          at p
-          at p
-          at div
-          at App
-
-      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
-      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
-      at validateDOMNesting (node_modules/react-dom/cjs/react-dom.development.js:10083:7)
-      at createInstance (node_modules/react-dom/cjs/react-dom.development.js:10181:5)
-      at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19464:28)
-      at completeUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22812:16)
-      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22787:5)
-      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22707:5)
-
-    console.error
-      Warning: validateDOMNesting(...): <div> cannot appear as a descendant of <p>.
-          at div
-          at RevealAnswer (/home/runner/work/tasks/tasks/src/components/RevealAnswer.tsx:5:44)
-          at p
-          at div
-          at App
-
-      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
-      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
-      at validateDOMNesting (node_modules/react-dom/cjs/react-dom.development.js:10083:7)
-      at createInstance (node_modules/react-dom/cjs/react-dom.development.js:10181:5)
-      at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19464:28)
-      at completeUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22812:16)
-      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22787:5)
-      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22707:5)
-
--------------------|---------|----------|---------|---------|-------------------
-File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
--------------------|---------|----------|---------|---------|-------------------
-All files          |   99.03 |    96.66 |     100 |   98.99 |                   
- src               |   99.39 |    96.96 |     100 |   99.36 |                   
-  App.tsx          |     100 |      100 |     100 |     100 |                   
-  arrays.ts        |     100 |      100 |     100 |     100 |                   
-  functions.ts     |     100 |      100 |     100 |     100 |                   
-  nested.ts        |     100 |    95.65 |     100 |     100 | 248               
-  objects.ts       |   95.83 |     87.5 |     100 |   95.83 | 52                
- src/components    |   97.61 |    95.83 |     100 |   97.61 |                   
-  ChangeType.tsx   |     100 |      100 |     100 |     100 |                   
-  Counter.tsx      |     100 |      100 |     100 |     100 |                   
-  CycleHoliday.tsx |   94.44 |    83.33 |     100 |   94.44 | 35                
-  RevealAnswer.tsx |     100 |      100 |     100 |     100 |                   
-  StartAttempt.tsx |     100 |      100 |     100 |     100 |                   
-  TwoDice.tsx      |     100 |      100 |     100 |     100 |                   
- src/interfaces    |       0 |        0 |       0 |       0 |                   
-  answer.ts        |       0 |        0 |       0 |       0 |                   
-  question.ts      |       0 |        0 |       0 |       0 |                   
--------------------|---------|----------|---------|---------|-------------------
-
-Test Suites: 11 passed, 11 total
-Tests:       93 passed, 93 total
+Test Suites: 15 passed, 15 total
+Tests:       110 passed, 110 total
 Snapshots:   0 total
-Time:        7.695 s
+Time:        9.162 s
 Ran all test suites.
