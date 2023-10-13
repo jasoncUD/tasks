@@ -6,6 +6,10 @@ import { ChangeType } from "./components/ChangeType";
 import { StartAttempt } from "./components/StartAttempt";
 import { TwoDice } from "./components/TwoDice";
 import { CycleHoliday } from "./components/CycleHoliday";
+import { DoubleHalf } from "./bad-components/DoubleHalf";
+import { ChooseTeam } from "./bad-components/ChooseTeam";
+import { ColoredBox } from "./bad-components/ColoredBox";
+import { ShoveBox } from "./bad-components/ShoveBox";
 
 function App(): JSX.Element {
     return (
@@ -25,6 +29,14 @@ function App(): JSX.Element {
             <ChangeType></ChangeType>
             <hr />
             <CycleHoliday></CycleHoliday>
+            <hr />
+            <DoubleHalf></DoubleHalf>
+            <hr />
+            <ChooseTeam></ChooseTeam>
+            <hr />
+            <ColoredBox></ColoredBox>
+            <hr />
+            <ShoveBox></ShoveBox>
         </div>
     );
 }
