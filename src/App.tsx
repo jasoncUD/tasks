@@ -6,6 +6,10 @@ import { ChangeType } from "./components/ChangeType";
 import { StartAttempt } from "./components/StartAttempt";
 import { TwoDice } from "./components/TwoDice";
 import { CycleHoliday } from "./components/CycleHoliday";
+import { DoubleHalf } from "./bad-components/DoubleHalf";
+import { ChooseTeam } from "./bad-components/ChooseTeam";
+import { ColoredBox } from "./bad-components/ColoredBox";
+import { ShoveBox } from "./bad-components/ShoveBox";
 
 function App(): JSX.Element {
     return (
@@ -13,23 +17,26 @@ function App(): JSX.Element {
             <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript Ayye
             </header>
-            <p>
-                Counter Component: <Counter></Counter>
-                <p></p>
-                Reveal Answer Component: <RevealAnswer></RevealAnswer>
-            </p>
-            <p>
-                Change Question Type Component: <ChangeType></ChangeType>
-            </p>
-            <p>
-                Start Attempt Component: <StartAttempt></StartAttempt>
-            </p>
-            <p>
-                TwoDice Component: <TwoDice></TwoDice>
-            </p>
-            <p>
-                CycleHoliday Component: <CycleHoliday></CycleHoliday>
-            </p>
+            <hr></hr>
+            <Counter></Counter>
+            <hr />
+            <RevealAnswer></RevealAnswer>
+            <hr />
+            <StartAttempt></StartAttempt>
+            <hr />
+            <TwoDice></TwoDice>
+            <hr />
+            <ChangeType></ChangeType>
+            <hr />
+            <CycleHoliday></CycleHoliday>
+            <hr />
+            <DoubleHalf></DoubleHalf>
+            <hr />
+            <ChooseTeam></ChooseTeam>
+            <hr />
+            <ColoredBox></ColoredBox>
+            <hr />
+            <ShoveBox></ShoveBox>
         </div>
     );
 }
