@@ -7,10 +7,14 @@ import { StartAttempt } from "./components/StartAttempt";
 import { TwoDice } from "./components/TwoDice";
 import { CycleHoliday } from "./components/CycleHoliday";
 import { DoubleHalf } from "./bad-components/DoubleHalf";
-import { ChooseTeam } from "./bad-components/ChooseTeam";
 import { ColoredBox } from "./bad-components/ColoredBox";
 import { ShoveBox } from "./bad-components/ShoveBox";
 import { ChooseTeam } from "./bad-components/ChooseTeam";
+import { CheckAnswer } from "./form-components/CheckAnswer";
+import { GiveAttempts } from "./form-components/GiveAttempts";
+import { EditMode } from "./form-components/EditMode";
+import { ChangeColor } from "./form-components/ChangeColor";
+import { MultipleChoiceQuestion } from "./form-components/MultipleChoiceQuestion";
 
 function App(): JSX.Element {
     return (
@@ -46,6 +50,19 @@ function App(): JSX.Element {
             <ColoredBox></ColoredBox>
             <hr />
             <ShoveBox></ShoveBox>
+            <hr />
+            <CheckAnswer expectedAnswer={"George Washington"}></CheckAnswer>
+            <hr />
+            <GiveAttempts></GiveAttempts>
+            <hr />
+            <EditMode></EditMode>
+            <hr />
+            <ChangeColor></ChangeColor>
+            <hr />
+            <MultipleChoiceQuestion
+                options={["Value 2", "2", "New York", "Maryland"]}
+                expectedAnswer="2"
+            ></MultipleChoiceQuestion>
         </div>
     );
 }
